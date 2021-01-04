@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Medium'), local('Raleway-Medium'),
+        url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Bold'), local('Raleway-Bold'),
+        url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Regular'), local('Raleway-Regular'),
+        url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Light'), local('Raleway-Light'),
+        url('../fonts/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, sans-serif;
+	font-weight: normal;
+}
+
+.autorization-wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #515151;
+}
+
+.autorization-form {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 15px 25px;
+	color: #ffffff;
+}
+
+.autorization-header {
+	font-size: 15px;
+	line-height: 17px;
+	letter-spacing: 0.08px;
+	color: #FFFFFF;
+	font-weight: normal;
+	margin-bottom: 28px;
+}
+
+.autorization-form input {
+	width: 260px;
+	border: none;
+	outline: none;
+	padding: 6px 20px 6px 10px;
+	background: rgba(255, 255, 255, 0.15);
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.0832569px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.0832569px;
+}
+::-moz-placeholder          {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.0832569px;
+}/* Firefox 19+ */
+:-moz-placeholder           {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.0832569px;
+}/* Firefox 18- */
+:-ms-input-placeholder      {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.0832569px;
+}
+
+.autorization-form input:nth-last-child(1) {
+	margin-bottom: 5px;
+}
+
+.autorization-footer {
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 0.08px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.autorization-button {
+	width: 85px;
+	background: #FFE600;
+	border: none;
+	border-radius: 2px;
+	padding: 3px 0;
+	text-align: center;
+	align-self: center;
+	margin-top: 18px;
+	outline: none;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.7);
+}
